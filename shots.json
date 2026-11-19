@@ -1,5 +1,1 @@
-[
-  { "file": "1-checklist.jpg", "path": "/", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "2-silver.jpg", "path": "/", "grade": "silver", "viewport": { "width": 1280, "height": 800 } },
-  { "file": "3-bronze.jpg", "path": "/", "grade": "bronze", "scroll": 1400, "viewport": { "width": 1280, "height": 800 } }
-]
+[{"file":"1-cover.jpg","path":"/#demo&trophy=28","shows":"The checklist with demo progress (23 of 55), kind filters and the detail panel open on the one missable trophy, Positive Mental Attitude, with its guide and sources.","viewport":{"height":800,"width":1280}},{"file":"2-roadmap.jpg","path":"/#demo&view=roadmap","shows":"The roadmap to the platinum: the golden rules (no mission replay, the one missable step, cheats off, one playthrough) and stage 1, each with sources.","viewport":{"height":800,"width":1280}},{"file":"3-spoiler.jpg","path":"/#demo&spoiler=1&trophy=6","shows":"The spoiler shield on: earned story trophies revealed, unearned story trophies masked in the list and in the detail panel until earned.","viewport":{"height":800,"width":1280}},{"file":"4-detail.jpg","path":"/#demo&kind=collectibles&trophy=14","shows":"The Collectibles filter at work (7 of 55 shown) with the detail panel open on the gold trophy A Long Road and its sourced 100% checklist guide.","viewport":{"height":800,"width":1280}}]

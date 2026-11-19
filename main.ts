@@ -19,6 +19,11 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
+// Leonida Legend (this entry): app/ holds an original guide and tracker for all 55 GTA VI trophies —
+// per-trophy guides in our own words with their sources named (app/data/trophies.json), a six-stage
+// roadmap to the platinum with the one missable trophy flagged, a spoiler shield for story trophies,
+// and progress saved in localStorage with export/import. The plumbing below is the kit's; the guide is ours.
+
 const here = fileURLToPath(new URL('.', import.meta.url));
 const out = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
@@ -34,3 +39,5 @@ writeFileSync(
   join(out, 'dossier.json'),
   buildDossier(out, { text_max_bytes: 163840, screenshots: { max: 4, max_bytes: 262144 }, app_max_files: 993, app_max_bytes: 50331648 }),
 );
+
+console.log(`Leonida Legend handed in: app/ and screenshots/ copied to ${out}, dossier.json written.`);
